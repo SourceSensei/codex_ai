@@ -77,7 +77,7 @@ const handle_submit = async (e) => {
 
   //fetch data from server->get bot's response
   //http://localhost:5000
-  const response = await fetch("https://talking-ai.onrender.com", {
+  const response = await fetch("https://codex-53qq.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
